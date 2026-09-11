@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TG_TOKEN=8705420767:AAFv15h0yGvWVeraaGpsoFy8dfkyTnvSMbU
-TG_ID=743440538
+TG_TOKEN=definitelyatoken
+TG_ID=definitelyanid
 URL="https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
 TEXT="Project: ${CI_PROJECT_NAME}%0A${1}: ${2}"
 
